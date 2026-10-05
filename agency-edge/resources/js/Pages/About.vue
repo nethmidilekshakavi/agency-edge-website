@@ -19,7 +19,7 @@ const c = props.content;
         <div class="container two-col">
             <div class="sticky-col">
                 <p class="label" v-reveal>Our belief</p>
-                <h2 class="h2 mt-s" style="font-size: clamp(30px, 3.6vw, 56px)" v-split>{{ c.about.title }}</h2>
+                <h2 class="h2 mt-s" style="font-size: clamp(26px, 3vw, 46px)" v-split>{{ c.about.title }}</h2>
             </div>
             <div>
                 <p v-for="(p, i) in c.about.paragraphs" :key="i" class="lead" style="max-width:none; margin-bottom: 1.2em" :style="i === 0 ? 'color: var(--text)' : ''" v-split>{{ p }}</p>

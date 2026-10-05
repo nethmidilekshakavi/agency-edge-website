@@ -21,7 +21,7 @@ useMotion(root, ({ q, reduced }) => {
     <div ref="root" class="two-col">
         <div class="sticky-col">
             <p class="label" v-reveal>{{ block.label }}</p>
-            <h2 class="h2 mt-s" style="font-size: clamp(32px, 4.2vw, 64px)" v-split>{{ block.title }}</h2>
+            <h2 class="h2 mt-s" style="font-size: clamp(28px, 3.4vw, 52px)" v-split>{{ block.title }}</h2>
             <p class="muted mt-m" v-reveal>{{ block.summary }}</p>
         </div>
         <div class="services">
