@@ -21,7 +21,7 @@ const c = props.content;
         <div class="container two-col">
             <div class="sticky-col">
                 <p class="label" v-reveal>Why it matters</p>
-                <h2 class="h2 mt-s" style="font-size: clamp(32px, 4.2vw, 64px)" v-split>{{ c.martech.heading }}</h2>
+                <h2 class="h2 mt-s" style="font-size: clamp(28px, 3.4vw, 52px)" v-split>{{ c.martech.heading }}</h2>
             </div>
             <div>
                 <p class="lead" style="max-width:none; color: var(--text)" v-split>{{ c.martech.body }}</p>

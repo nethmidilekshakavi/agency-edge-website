@@ -46,8 +46,8 @@ useMotion(cases, ({ q, reduced }) => {
             <ol style="list-style:none; margin:0; padding:0">
                 <li v-for="(u, i) in c.ai.use_cases" :key="u.name" class="usecase" style="position:relative; padding: 34px 0; border-bottom: 1px solid var(--line)">
                     <span class="eyebrow">0{{ i + 1 }}</span>
-                    <h3 class="h3 mt-s" style="font-size: clamp(28px, 3.4vw, 50px); text-transform: uppercase; font-weight: 800; letter-spacing: -0.035em">{{ u.name }}</h3>
-                    <p class="muted" style="margin: 10px 0 0; font-size: 18px">{{ u.text }}</p>
+                    <h3 class="h3 mt-s" style="font-size: clamp(24px, 2.6vw, 40px); text-transform: uppercase; font-weight: 800; letter-spacing: -0.035em">{{ u.name }}</h3>
+                    <p class="muted" style="margin: 10px 0 0; font-size: 16px">{{ u.text }}</p>
                     <span class="usecase__bar" style="position:absolute; left:0; bottom:-1px; height:2px; width:100%; background: var(--accent); transform-origin:left; display:block"></span>
                 </li>
             </ol>
